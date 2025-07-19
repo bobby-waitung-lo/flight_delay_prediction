@@ -47,7 +47,7 @@ The project is structured into four main sections, implemented in `flight_delay_
    ```bash
    pip install -r requirements.txt
    ```
-   (Includes `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `category_encoders`, `xgboost`, `shap`).
+   (Includes `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `category_encoders`, `xgboost`, `shap`, `streamlit`, `joblib`).
 
 2. **Run the Notebook**:
    ```bash
@@ -56,10 +56,10 @@ The project is structured into four main sections, implemented in `flight_delay_
    Execute cells sequentially to perform EDA, train the model, and generate SHAP visualizations.
 
 3. **Optional Deployment Simulation**:
-   - A Streamlit app (`app.py`) simulates model deployment for real-time delay predictions.
+   - A Streamlit app (`flight_delay_prediction_streamlit_app.py`) simulates model deployment for real-time delay predictions.
    - Run with:
      ```bash
-     streamlit run app.py
+     streamlit run flight_delay_prediction_streamlit_app.py
      ```
 
 ## Summary
