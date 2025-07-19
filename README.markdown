@@ -61,11 +61,11 @@ The project is structured into four main sections, implemented in `flight_delay_
      streamlit run app.py
      ```
 
-## Relevance to Virgin Atlantic
+## Summary
 This project demonstrates how machine learning can drive operational excellence and customer satisfaction:
 - **Scheduling Optimization**: Adjust schedules based on delay-prone airports and times identified by SHAP analysis.
 - **Proactive Delay Management**: Flag high-risk flights for preemptive measures like crew rotations or passenger rerouting.
 - **Customer Experience**: Use model predictions to provide timely delay alerts and rebooking options, fostering loyalty.
 - **Transparency**: Present SHAP-driven insights in reports for regulators and stakeholders, showcasing data-driven decision-making.
 
-This work highlights technical proficiency in machine learning, MLOps, and actionable analytics, making it directly applicable to Virgin Atlantic’s goals of efficiency and customer-centric innovation.
+This work highlights technical proficiency in machine learning, MLOps, and actionable analytics, making it directly applicable to efficiency and customer-centric innovation.
