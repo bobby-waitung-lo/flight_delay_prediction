@@ -1,0 +1,29 @@
+﻿Field Name,Description
+DAY_OF_WEEK,Day of Week
+FL_DATE,Flight Date (yyyymmdd)
+OP_UNIQUE_CARRIER,Unique Carrier Code.
+TAIL_NUM,Tail Number
+OP_CARRIER_FL_NUM,Flight Number
+ORIGIN,Origin Airport
+DEST,Destination Airport
+CRS_DEP_TIME,CRS Departure Time (local time: hhmm)
+DEP_TIME,Actual Departure Time (local time: hhmm)
+DEP_DELAY,Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.
+TAXI_OUT,"Taxi Out Time, in Minutes"
+WHEELS_OFF,Wheels Off Time (local time: hhmm)
+WHEELS_ON,Wheels On Time (local time: hhmm)
+TAXI_IN,"Taxi In Time, in Minutes"
+CRS_ARR_TIME,CRS Arrival Time (local time: hhmm)
+ARR_TIME,Actual Arrival Time (local time: hhmm)
+ARR_DELAY,Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.
+CANCELLED,Cancelled Flight Indicator (1=Yes)
+DIVERTED,Diverted Flight Indicator (1=Yes)
+CRS_ELAPSED_TIME,"CRS Elapsed Time of Flight, in Minutes"
+ACTUAL_ELAPSED_TIME,"Elapsed Time of Flight, in Minutes"
+AIR_TIME,"Flight Time, in Minutes"
+DISTANCE,Distance between airports (miles)
+CARRIER_DELAY,"Carrier Delay, in Minutes"
+WEATHER_DELAY,"Weather Delay, in Minutes"
+NAS_DELAY,"National Air System Delay, in Minutes"
+SECURITY_DELAY,"Security Delay, in Minutes"
+LATE_AIRCRAFT_DELAY,"Late Aircraft Delay, in Minutes"
