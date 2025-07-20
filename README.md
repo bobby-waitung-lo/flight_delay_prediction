@@ -2,7 +2,7 @@
 ## Flight Delay Prediction with MLOps
 
 ## Overview
-This project develops a machine learning model to predict flight delays (arrival delays > 15 minutes) using historical flight data from the United States Department of Transportation's Bureau of Transportation Statistics. The goal is to create a robust, interpretable, and scalable solution that demonstrates key data science and MLOps practices, including data preprocessing, model training, and explainability. The project is designed to support Virgin Atlantic’s objectives of optimizing flight schedules, improving operational efficiency, and enhancing customer satisfaction through data-driven insights.
+This project develops a machine learning model to predict flight delays (arrival delays > 15 minutes) using historical flight data from the United States Department of Transportation's Bureau of Transportation Statistics. The goal is to create a robust, interpretable, and scalable solution that demonstrates key data science and MLOps practices, including data preprocessing, model training, and explainability. The project is designed to support optimizing flight schedules, improving operational efficiency, and enhancing customer satisfaction through data-driven insights.
 
 ## Dataset
 - **Source**: United States Department of Transportation's Bureau of Transportation Statistics ([link](https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr)).
