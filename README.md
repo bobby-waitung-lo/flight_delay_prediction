@@ -17,6 +17,8 @@ The project is structured into four main sections, implemented in `flight_delay_
    - Used `pandas` and `numpy` for data manipulation and cleaning.
    - Performed exploratory data analysis (EDA) with `matplotlib` and `seaborn`, creating high-quality visualizations to uncover patterns (e.g., delay distributions, trends by day or airport).
    - Engineered features like `dep_hour` and applied target encoding to `ORIGIN` and `DEST`, Yeo-Johnson transformation to `DEP_DELAY`, and feature scaling for numerical features.
+<img width="1190" height="590" alt="output 1" src="https://github.com/user-attachments/assets/189a567e-1e96-4c9f-9233-6bc509e92b4b" />
+<img width="858" height="775" alt="output 2" src="https://github.com/user-attachments/assets/735f410b-58ee-421a-90ff-096697e25a6d" />
 
 2. **Model Building**:
    - Built a machine learning pipeline using `sklearn` and `category_encoders` to streamline preprocessing (imputation, target encoding, Yeo-Johnson transformation, scaling) and modeling.
@@ -26,6 +28,7 @@ The project is structured into four main sections, implemented in `flight_delay_
 3. **Model Explainability**:
    - Utilized `SHAP` to analyze feature importance, revealing `DEP_DELAY` as the dominant predictor and identifying delay-prone airports.
    - Visualized SHAP results to communicate insights effectively to non-technical stakeholders.
+<img width="755" height="259" alt="output 3" src="https://github.com/user-attachments/assets/08be376d-cfea-41f4-8438-90e11bfc08c8" />
 
 4. **Discussion**:
    - Translated model insights into actionable strategies for Virgin Atlantic, such as optimizing schedules, implementing delay mitigation protocols, and enhancing passenger communication.
