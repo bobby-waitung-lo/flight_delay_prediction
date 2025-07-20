@@ -1,18 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-import numpy
-import category_encoders
-import sklearn
-import xgboost
-import joblib
-
-import subprocess
-import sys
-import os
-
-if os.path.exists("requirements.txt"):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 # Load pipeline
 model = joblib.load('flight_delay_model.joblib')
