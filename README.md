@@ -58,12 +58,13 @@ The project is structured into four main sections, implemented in `flight_delay_
    ```
    Execute cells sequentially to perform EDA, train the model, and generate SHAP visualizations.
 
-3. **Optional Deployment Simulation**:
+3. **Deployment Simulation**:
    - A Streamlit app (`flight_delay_prediction_streamlit_app.py`) simulates model deployment for real-time delay predictions.
    - Run with:
      ```bash
      streamlit run flight_delay_prediction_streamlit_app.py
      ```
+![app_demo](https://github.com/user-attachments/assets/a8422967-3046-409c-a126-fdb2ace8e2a7)
 
 ## Summary
 This project demonstrates how machine learning can drive operational excellence and customer satisfaction:
