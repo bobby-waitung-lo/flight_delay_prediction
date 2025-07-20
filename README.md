@@ -37,7 +37,7 @@ The project is structured into four main sections, implemented in `flight_delay_
 - **MLOps**: Implemented reusable functions and a pipeline for scalability and maintainability, versioned with Git for reproducibility.
 
 ## Results
-- **Model Performance**: The optimized XGBoost model achieved an AUC-ROC of approximately 0.85, indicating strong predictive capability.
+- **Model Performance**: The optimized XGBoost model achieved an AUC-ROC of approximately 0.93, indicating strong predictive capability.
 - **Key Insights**:
   - `DEP_DELAY` is the primary driver of arrival delays, with higher departure delays strongly correlated with late arrivals.
   - Certain airports (`ORIGIN`, `DEST`) show consistent delay patterns, suggesting opportunities for targeted operational improvements.
