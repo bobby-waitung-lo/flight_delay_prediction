@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import subprocess
+import sys
+import os
+
+if os.path.exists("requirements.txt"):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 # Load pipeline
 model = joblib.load("delay_pipeline.pkl")
