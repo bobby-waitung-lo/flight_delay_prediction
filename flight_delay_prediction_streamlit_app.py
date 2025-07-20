@@ -9,7 +9,7 @@ if os.path.exists("requirements.txt"):
     subprocess.check_call([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
 
 # Load pipeline
-model = joblib.load("delay_pipeline.pkl")
+model = joblib.load('flight_delay_model.joblib')
 
 # Page title
 st.title("✈️ Flight Delay Prediction")
